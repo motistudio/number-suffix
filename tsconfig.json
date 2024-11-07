@@ -1,0 +1,14 @@
+{
+  "references": [
+    {"path": "./tsconfig.lib.json"},
+    {"path": "./tsconfig.spec.json"}
+  ],
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": "./dist",
+    "strict": true
+  },
+  "include": ["**/*"]
+}
